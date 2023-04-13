@@ -1,0 +1,11 @@
+# exclude everything
+/*
+# except
+!/ftplugin
+!/plugin
+!/spellcheck
+!/after
+!/autoload
+!/ftdetect
+!init.vim
+!.gitignore
