@@ -29,7 +29,3 @@ set signcolumn=yes
 " idle time after which the swap file is updated
 " GitGutter uses this idle timer to refresh the sign column
 set updatetime=500
-
-" set colorscheme
-colorscheme gruvbox
-set background=dark
