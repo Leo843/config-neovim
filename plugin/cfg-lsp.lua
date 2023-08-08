@@ -17,3 +17,4 @@ lspconfig.eslint.setup {
     client.server_capabilities.documentFormattingProvider  = true
   end,
 }
+lspconfig.clangd.setup {}
