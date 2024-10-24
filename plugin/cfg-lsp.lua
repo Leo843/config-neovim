@@ -1,3 +1,6 @@
+require("mason").setup()
+require("mason-lspconfig").setup()
+
 local lspconfig = require('lspconfig')
 
 local lsp_defaults = lspconfig.util.default_config
@@ -12,9 +15,9 @@ lspconfig.tsserver.setup {
     client.server_capabilities.documentFormattingProvider = false
   end,
 }
-lspconfig.eslint.setup {
-  on_attach = function(client)
-    client.server_capabilities.documentFormattingProvider  = true
-  end,
-}
+-- lspconfig.eslint.setup {
+--   on_attach = function(client)
+--     client.server_capabilities.documentFormattingProvider  = true
+--   end,
+-- }
 lspconfig.clangd.setup {}
