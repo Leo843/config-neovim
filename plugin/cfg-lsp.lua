@@ -10,7 +10,7 @@ lsp_defaults.capabilities = vim.tbl_deep_extend(
   require('cmp_nvim_lsp').default_capabilities()
 )
 
-lspconfig.tsserver.setup {
+lspconfig.ts_ls.setup {
   on_attach = function(client)
     client.server_capabilities.documentFormattingProvider = false
   end,
