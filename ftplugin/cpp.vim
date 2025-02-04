@@ -5,4 +5,4 @@ nnoremap <buffer> <leader>m wbim_<Esc>
 " insert semi-colon at the end of the line
 nnoremap <leader>; A;<Esc>
 " Use F2 to save and format
-nnoremap <buffer> <F2> :wa <bar> !make format<CR>
+nnoremap <buffer> <silent> <F2> :w <bar> silent !clang-format -i %<CR>
