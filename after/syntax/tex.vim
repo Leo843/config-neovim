@@ -1,0 +1,2 @@
+syn cluster texCluster contains=texAbstract,texBoldItalStyle,texBoldStyle,texChapterZone,texCommentGroup,texDocZone,texEmphStyle,texItalBoldStyle,texItalStyle,texMatchGroup,texMatchNMGroup,texMathText,texParaZone,texParen,texPartZone,texSectionZone,texStyleGroup,texSubParaZone,texSubSectionZone,texSubSubSectionZone,texTitle,texZone
+syntax region noTexSyntax start=/\\begin{mono}/ end=/\\end{mono}/ contains=@NoSyntax containedin=@texCluster
