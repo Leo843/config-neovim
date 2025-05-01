@@ -10,3 +10,6 @@ nnoremap <leader>k :m .-2<CR>
 vnoremap J :m '>+1<CR>gv
 vnoremap K :m '<-2<CR>gv
 
+" move around the quickfix window
+nnoremap <leader>n :cnext<CR>
+nnoremap <leader>p :cprevious<CR>
