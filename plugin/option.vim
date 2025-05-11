@@ -32,3 +32,6 @@ set updatetime=500
 
 " use {{{ and }}} to define fold regions.
 set foldmethod=marker
+
+" always keep the cursor vertically centered.
+set scrolloff=999
