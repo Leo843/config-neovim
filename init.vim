@@ -43,4 +43,7 @@ Plug 'hrsh7th/vim-vsnip'
 " misc
 Plug 'airblade/vim-gitgutter'
 
+" ai
+Plug 'azorng/goose.nvim'
+
 call plug#end()
