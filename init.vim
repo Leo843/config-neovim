@@ -29,7 +29,6 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'williamboman/mason.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
 Plug 'neovim/nvim-lspconfig'
-Plug 'jose-elias-alvarez/null-ls.nvim'
 
 " auto-complete
 Plug 'hrsh7th/cmp-nvim-lsp'

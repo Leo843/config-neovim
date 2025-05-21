@@ -10,14 +10,9 @@ lsp_defaults.capabilities = vim.tbl_deep_extend(
   require('cmp_nvim_lsp').default_capabilities()
 )
 
-lspconfig.ts_ls.setup {
-  on_attach = function(client)
-    client.server_capabilities.documentFormattingProvider = false
-  end,
-}
--- lspconfig.eslint.setup {
---   on_attach = function(client)
---     client.server_capabilities.documentFormattingProvider  = true
---   end,
--- }
-lspconfig.clangd.setup {}
+vim.lsp.enable('clangd')
+
+vim.g.markdown_fenced_languages = { "ts=typescript" }
+vim.lsp.enable('denols')
+
+vim.lsp.enable('pyright')
